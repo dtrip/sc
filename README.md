@@ -200,6 +200,7 @@ already, you may want to add the following lines:
 
 \# sc:  file(1) magic for "sc" spreadsheet
 \#
+
 38	string		Spreadsheet	sc spreadsheet file
 
 Psc formats ascii files for use in the spreadsheet.  If you don't have
