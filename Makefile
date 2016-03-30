@@ -26,7 +26,7 @@ prefix=/usr
 EXDIR=${prefix}/bin
 
 # This is where the man page goes.
-MANDIR=${prefix}/man/man1
+MANDIR=${prefix}/share/man/man1
 MANEXT=1
 MANMODE=644
 
