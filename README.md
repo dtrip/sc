@@ -1,4 +1,4 @@
-### SC
+# SC
 
 This is a much modified version of the public domain spread sheet sc,
 originally by James Gosling, and posted a number of years ago by Mark
@@ -87,7 +87,7 @@ Everything will be done manually, and all names will be put in a "Bcc:"
 header, so there will be no danger of being added to someone's spam list.
 
 
-# Installation
+## Installation
 Updates to xmalloc.c so it's able to be compiled in Ubuntu (tested on Wily 15.10)
 
 ```
@@ -95,7 +95,7 @@ $ make
 $ sudo make install
 ```
 
-# IMPORTANT NOTE
+## IMPORTANT NOTE
 
 As of version 7.2, the default rounding method has been changed.  The
 former default, round-to-even, aka banker's rounding, is still available,
