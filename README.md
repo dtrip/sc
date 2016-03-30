@@ -88,7 +88,7 @@ header, so there will be no danger of being added to someone's spam list.
 
 
 # Installation
-Updates to xmalloc.c so it's able to be compiled in Ubuntu (tested on Wily e15.10)
+Updates to xmalloc.c so it's able to be compiled in Ubuntu (tested on Wily 15.10)
 
 ```
 $ make
@@ -166,7 +166,7 @@ anyone else.  If you get it to compile and run on something else, please
 let me know.  If it doesn't work and you can fix it, please send me a patch.
 
 
-A couple of notes from the previous maintainer:
+## A couple of notes from the previous maintainer
 
 1) If you have problems with lex.c, and don't care about arrow keys, define
    SIMPLE (-DSIMPLE in the makefile).  SIMPLE causes the arrow keys to not
@@ -198,8 +198,8 @@ To print a quick reference card, type the command:
 If you have the command 'file' that uses /etc/magic, and it isn't there
 already, you may want to add the following lines:
 
-# sc:  file(1) magic for "sc" spreadsheet
-#
+\# sc:  file(1) magic for "sc" spreadsheet
+\#
 38	string		Spreadsheet	sc spreadsheet file
 
 Psc formats ascii files for use in the spreadsheet.  If you don't have
